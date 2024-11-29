@@ -1,12 +1,12 @@
 
 import './App.css'
-import { Hero } from './hero/Hero'
+import ApplicationForm from './components/ApplicationForm'
 
 
 function App() {
   return (
     <>
-    <Hero/>
+    <ApplicationForm/>
     </>
   )
 }

@@ -75,7 +75,7 @@ export const Hero = () => {
             {/* Main Content Section */}
             <Stack direction={{ xs: 'column', md: 'row' }} spacing={4} sx={{ border: 'none' }}>
                 {/* About Section */}
-                <Card sx={{ flex: 1.5, border: 'none', pb:2 }}>
+                <Card sx={{ flex: 1.5, border: 'none', pb:2, boxShadow:0 }}>
                     <CardContent>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             About Annie
